@@ -1,21 +1,13 @@
-![React Logo](https://github.com/vercel/vercel/blob/main/packages/frameworks/logos/react.svg)
-
-# React Example
-
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
-
-## Deploy Your Own
-
-Deploy your own React project, along with Serverless Functions, with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app-functions&template=create-react-app)
-
-_Live Example: https://create-react-app.now-examples.now.sh/_
-
-### How We Created This Example
-
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
-
-```shell
-$ npx create-react-app my-app
-```
+### In development
+## To do list
+1. Auction BG must be changed with art background.
+- <code>Set store variable `auctionBG`</code>
+2. Change minimum bi amount based on currentbid
+- <code>bidWallet.tsx</code>
+3. Connect wallet and Bid
+- <code>BidWallet.js</code>
+4. change external url to mainnet
+- <code>funcs.ts</code>
+### To generate image
+  <code>Convert change "module": "esnext" to "module": "CommonJS" in tsconfig.ts</code>
+  - This is why ts-node does not support *.ts, only support *.js

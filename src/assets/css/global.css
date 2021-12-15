@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "brick";
+  src: url("../fonts/brick.ttf") format("truetype")
+}
+@font-face {
+  font-family: "boloon";
+  src: url("../fonts/boloon.TTF") format("truetype")
+}
+@font-face {
+  font-family: "craft";
+  src: url("../fonts/Minecraft.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Shadeerah";
+  src: url("../fonts/Shadeerah.ttf") format("truetype")
+}
+.bg-menu {
+  background-color: rgb(213, 215, 225);
+}
+.bg-top {
+  background-color: rgb(213, 215, 225) !important;
+}
+.dnarn {
+  background-color: rgb(213, 215, 225) !important;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.react-numeric-input input {
+  border-radius: 6px !important;
+  padding-left: 8px !important;
+}
+.history-modal {
+  height: 80vh;
+  overflow: auto;
+}
+.line-height-1.3 {
+  line-height: 1.375em !important;
+}
